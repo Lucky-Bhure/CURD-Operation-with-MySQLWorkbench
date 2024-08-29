@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New User</title>
+</head>
+<body>
+    <a href="/" style="text-decoration: none;"><button>Home</button></a><br><br>
+    <h2>You are about to Add New User :</h2>
+    <form method="post" action="/newuser?_method=PATCH">
+        <input name="username" placeholder="Enter Username"><br><br>
+        <input type="email" name="email" placeholder="Enter Email"><br><br>
+        <input type="password" name="password" placeholder="Enter Password"><br><br>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
