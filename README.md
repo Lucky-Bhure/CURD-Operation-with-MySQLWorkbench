@@ -8,10 +8,7 @@ A simple user management system built with Node.js, Express, MySQL, and EJS temp
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Configuration](#configuration)
 - [Dependencies](#dependencies)
-- [Security Considerations](#security-considerations)
-- [License](#license)
 
 ## Features
 - **Create User:** Add a new user with a unique ID, username, email, and password.
