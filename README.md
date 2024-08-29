@@ -26,8 +26,8 @@ A simple user management system built with Node.js, Express, MySQL, and EJS temp
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/yourusername/user-management-system.git
-    cd user-management-system
+    git clone https://github.com/Lucky-Bhure/CURD-Operation-with-MySQLWorkbench.git
+    cd CURD-Operation-with-MySQLWorkbench
     ```
 
 2. **Install dependencies:**
