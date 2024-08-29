@@ -17,7 +17,7 @@ const connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
     database: 'mysqlconnection',
-    password: 'Lucky19@'
+    password: 'Password'
 });
 
 // Generate Fake Users Data
