@@ -1,7 +1,5 @@
 # CURD Operation with MySQLWorkbench
 
-# User Management System
-
 A simple user management system built with Node.js, Express, MySQL, and EJS templates. This application allows users to be added, edited, deleted, and displayed from a MySQL database.
 
 ## Table of Contents
