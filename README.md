@@ -52,7 +52,7 @@ A simple user management system built with Node.js, Express, MySQL, and EJS temp
 
 4. **Configure Database Connection:**
 
-    - Update the MySQL connection settings in `app.js`:
+    - Update the MySQL connection settings in `index.js`:
 
       ```javascript
       const connection = mysql.createConnection({
@@ -66,7 +66,7 @@ A simple user management system built with Node.js, Express, MySQL, and EJS temp
 5. **Start the application:**
 
     ```bash
-    npm start
+    node index.js
     ```
 
 6. **Open your browser and navigate to:**
@@ -90,17 +90,5 @@ A simple user management system built with Node.js, Express, MySQL, and EJS temp
 - [EJS](https://ejs.co/) - Embedded JavaScript templating
 - [Faker.js](https://fakerjs.dev/) - Library for generating fake data
 - [Method-Override](https://www.npmjs.com/package/method-override) - Middleware to support HTTP verbs like PUT and DELETE
-
-## Security Considerations
-
-- **Password Storage:** Ensure that you implement password hashing (e.g., using `bcrypt`) before storing passwords in the database.
-- **SQL Injection:** Use parameterized queries to prevent SQL injection attacks.
-- **Input Validation:** Always validate and sanitize user inputs to prevent malicious data from being processed.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
----
 
 **Note:** This is a simple project intended for educational purposes. Ensure you follow best practices and improve security for production environments.
