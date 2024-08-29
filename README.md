@@ -83,11 +83,6 @@ A simple user management system built with Node.js, Express, MySQL, and EJS temp
 - **Edit User:** Click on a user's edit link to update their username.
 - **Delete User:** Click on a user's delete link to remove them from the database.
 
-## Configuration
-
-- **Port:** The application runs on port `8080` by default. You can change this by updating the `PORT` variable in `app.js`.
-- **Database Connection:** Modify the database connection settings in `app.js` to match your MySQL credentials and database name.
-
 ## Dependencies
 
 - [Express](https://expressjs.com/) - Web framework for Node.js
